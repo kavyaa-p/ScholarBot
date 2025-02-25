@@ -26,3 +26,4 @@ dist-ssr
 # backend directories
 backend/venv/
 backend/db/
+backend/.env

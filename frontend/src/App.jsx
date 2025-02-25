@@ -1,16 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from "react";
+import UploadPDF from "./components/UploadPDF";
+import QueryPDF from "./components/QueryPDF";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [fileName, setFileName] = useState("");
 
   return (
     <div>
-        <h1>Hello, World!</h1>
+      <h1>PDF Chatbot</h1>
+      <UploadPDF setFileName={setFileName} />
+      {fileName && <QueryPDF fileName={fileName} />}
+      <ToastContainer position="top-right" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

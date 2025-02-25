@@ -1,0 +1,11 @@
+fastapi[standard]
+langchain[all]
+langchain_openai
+chromadb
+pydantic
+pandas
+sqlalchemy
+tiktoken
+openai
+pypdf
+python-dotenv
