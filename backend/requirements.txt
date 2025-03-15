@@ -1,5 +1,5 @@
 fastapi[standard]
-langchain[all]
+langchain
 langchain-community
 langchain_openai
 chromadb
