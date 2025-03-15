@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import UploadPDF from "./components/UploadPDF";
 import QueryPDF from "./components/QueryPDF";
 import { ToastContainer } from "react-toastify";

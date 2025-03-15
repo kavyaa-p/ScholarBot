@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { queryPDF } from "../api";
 import { toast } from "react-toastify";
 

@@ -28,8 +28,8 @@ content, and answers questions using FastAPI, LangChain, ChromaDB, OpenAI APIs, 
 ### 1. Clone Repository
 
 ```sh
-git clone https://github.com/your-username/AI_RAG_Extractor.git
-cd AI_RAG_Extractor
+git clone https://github.com/your-username/ScholarBot.git
+cd ScholarBot
 ```
 
 ### 2. Backend Setup (FastAPI)
@@ -52,7 +52,9 @@ pip install -r requirements.txt
 #### 2.3. Start FastAPI Server
 
 ```sh
-uvicorn main:app --reload
+uvicorn main:backend_app --reload
+# or
+python3 -m uvicorn main:backend_app # if the previous command does not work
 ```
 
 Backend running at: http://127.0.0.1:8000
