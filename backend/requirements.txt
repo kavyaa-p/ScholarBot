@@ -1,5 +1,6 @@
 fastapi[standard]
 langchain[all]
+langchain-community
 langchain_openai
 chromadb
 pydantic
